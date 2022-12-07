@@ -9,12 +9,12 @@ int main()
 {
     int x, y;
  
-    printf("Enter two numbers: ");
-    scanf("%d%d", &x, &y);
+    printf ("Enter two numbers: ");
+    scanf ("%d%d", &x, &y);
  
     add(&x, &y);
  
-    printf("Sum = %d", x);
+    printf ("Sum = %d", x);
  
     return 0;
 }
