@@ -13,8 +13,8 @@ int main()
 int input()
 {
   int a;
-  printf("enter two numbers:");
-  scanf("%d",&a);
+  printf ("enter two numbers:");
+  scanf ("%d",&a);
   return a;
 }
 int add(int a, int b){
@@ -23,5 +23,5 @@ int add(int a, int b){
   return sum;
 }
 void output (int a,int b,int sum){
-  printf("the sum of %d and %d is %d\n",a,b,sum);
+  printf ("the sum of %d and %d is %d\n",a,b,sum);
 }
