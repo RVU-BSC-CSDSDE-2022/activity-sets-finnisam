@@ -1,6 +1,6 @@
 {
   int largest;
-  if((a>b)&&(a>c))
+  if ((a>b)&&(a>c))
     largest=a;
   if((b>a)&&(b>c))
     largest=b;
@@ -9,12 +9,11 @@
   return largest;
 }
 
-void output(int a, int b, int c, int largest)
+void output(int a, int b, int largest)
 {
-  printf("The largest of %d , %d and %d is %d",a,b,c,largest);
+  printf("the largest of %d, %d and %d is &d",a,b,c,largest);
 }
 int main()
-
 {
   int a,b,c,largest;
   a=input();
